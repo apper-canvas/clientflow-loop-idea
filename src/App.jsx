@@ -3,11 +3,15 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
+import Reports from './pages/Reports'
+
 
 function App() {
   return (
     <div className="min-h-screen bg-surface-50 dark:bg-surface-900">
       <Routes>
+        <Route path="/reports" element={<Reports />} />
+
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

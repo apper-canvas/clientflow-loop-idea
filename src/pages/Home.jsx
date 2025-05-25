@@ -215,18 +215,9 @@ function Home() {
               )}
 
               {activeSection === 'reports' && (
-                <div className="bg-white dark:bg-surface-800 rounded-xl p-8 shadow-soft text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <ApperIcon name="BarChart3" className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-surface-900 dark:text-surface-100 mb-2">
-                    Reports & Analytics
-                  </h3>
-                  <p className="text-surface-600 dark:text-surface-400">
-                    Detailed reporting features coming soon. Track your sales performance, conversion rates, and revenue trends.
-                  </p>
-                </div>
+                <Reports />
               )}
+
 
               {activeSection === 'settings' && (
                 <div className="bg-white dark:bg-surface-800 rounded-xl p-8 shadow-soft text-center">
