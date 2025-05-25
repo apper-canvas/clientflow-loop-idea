@@ -4,7 +4,7 @@ import ApperIcon from '../components/ApperIcon'
 
 function NotFound() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-surface-50 via-white to-primary-50 dark:from-surface-900 dark:via-surface-800 dark:to-surface-900">
+    <div className="min-h-screen flex items-center justify-center bg-surface-50 dark:bg-surface-900">
       <div className="text-center px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
