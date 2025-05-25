@@ -4,7 +4,6 @@ import { toast } from 'react-toastify'
 import { format } from 'date-fns'
 import ApperIcon from './ApperIcon'
 
-  const [activeTab, setActiveTab] = useState(initialTab)
 function MainFeature() {
   const [activeTab, setActiveTab] = useState('contacts')
   const [contacts, setContacts] = useState([
