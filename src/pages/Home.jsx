@@ -9,6 +9,7 @@ function Home() {
 
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [activeSection, setActiveSection] = useState('dashboard')
+  const [darkMode, setDarkMode] = useState(false)
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode)
