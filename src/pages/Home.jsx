@@ -3,7 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 import MainFeature from '../components/MainFeature'
 import ApperIcon from '../components/ApperIcon'
 
-function Home() {
+import Reports from './Reports'
+
   const [darkMode, setDarkMode] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [activeSection, setActiveSection] = useState('dashboard')
