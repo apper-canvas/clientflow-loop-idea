@@ -5,7 +5,8 @@ import ApperIcon from '../components/ApperIcon'
 
 import Reports from './Reports'
 
-  const [darkMode, setDarkMode] = useState(false)
+function Home() {
+
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [activeSection, setActiveSection] = useState('dashboard')
 
@@ -240,5 +241,6 @@ import Reports from './Reports'
     </div>
   )
 }
+
 
 export default Home
